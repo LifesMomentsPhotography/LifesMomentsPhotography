@@ -1,0 +1,361 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.logo {
+    width: 70%;
+    order: 1;
+    font-size: 2rem;
+    font-weight: 800;
+    padding-left: 13%;
+    padding-right: auto;
+    padding-top: 3%;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 64px;
+    margin-left: 50px;
+    margin-right: 50px;
+    
+}
+
+nav ul {
+    display: flex;
+    order: 2;
+}
+
+nav ul a {
+    color: black;
+    font-size: 1.6rem;
+    margin-left: 2rem;
+}
+
+.container {
+    height: 600px;
+    padding: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+.container img {
+    width: auto;
+    height: 70%;
+}
+
+.hero-text p {
+    font-size: 3.3rem;
+    margin-bottom: .5em;
+    color: black;
+    font-family: 'DM Serif Display', serif;
+}
+
+article {
+    
+    
+    margin: .5em .75em 1.2em .75em;
+    border-style: hidden;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.5em;
+    
+}
+
+.services p {
+    font-family: 'DM Serif Display', serif;
+    font-size: 3em;
+    float:left;
+}
+
+.services ul {
+    float:left
+}
+
+.services ul li {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.2em;
+    line-height: 2em;   
+}
+
+.services aside img {
+    float: right;
+    width: 20em;
+    margin-top: 3em;
+    margin-right:2em;
+}
+
+/* SLIDER STRUCTURE */
+
+#slider {
+    
+    border: 5px solid #eaeaea;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.7);
+    margin-top: 15em;
+    width: 97%;
+    height: auto;
+    overflow: visible;
+    position: relative;
+ }
+
+ /* HIDE ALL OUTSIDE OF THE SLIDER */
+
+#mask {
+    overflow: hidden;
+    height: 200px;
+ }
+
+ /* IMAGE LIST */
+
+#slider ul {
+    margin: 0;
+    padding: 0;
+    position: relative;
+ }
+ 
+ #slider li {
+    position: absolute;
+    top: -325px; /* Original Position - Outside of the Slider */
+    list-style: none;
+ }
+
+ #slider li.firstanimation {
+    animation: cycle 25s linear infinite;
+ }
+ 
+ #slider li.secondanimation {
+    animation: cycletwo 25s linear infinite;
+ }
+ 
+ #slider li.thirdanimation {
+    animation: cyclethree 25s linear infinite;
+ }
+ 
+ #slider li.fourthanimation {
+    animation: cyclefour 25s linear infinite;
+ }
+ 
+ #slider li.fifthanimation {
+    animation: cyclefive 25s linear infinite;
+ }
+
+ /* ANIMATION */
+
+@keyframes cycle {
+    0%  { top: 0px; } /* When you start the slide, the first image is already visible */
+    4%  { top: 0px; } /* Original Position */
+    16% { top: 0px; opacity:1; z-index:0; } /* From 4% to 16 % = for 3 seconds the image is visible */
+    20% { top: 325px; opacity: 0; z-index: 0; } /* From 16% to 20% = for 1 second exit image */
+    21% { top: -325px; opacity: 0; z-index: -1; } /* Return to Original Position */
+    92% { top: -325px; opacity: 0; z-index: 0; }
+    96% { top: -325px; opacity: 0; } /* From 96% to 100% = for 1 second enter image*/
+    100%{ top: 0px; opacity: 1; }
+ }
+ 
+ @keyframes cycletwo {
+    0%  { top: -325px; opacity: 0; } /* Original Position */
+    16% { top: -325px; opacity: 0; }/* Starts moving after 16% to this position */
+    20% { top: 0px; opacity: 1; }
+    24% { top: 0px; opacity: 1; }  /* From 20% to 24% = for 1 second enter image*/
+    36% { top: 0px; opacity: 1; z-index: 0; }   /* From 24% to 36 % = for 3 seconds the image is visible */
+    40% { top: 325px; opacity: 0; z-index: 0; } /* From 36% to 40% = for 1 second exit image */
+    41% { top: -325px; opacity: 0; z-index: -1; }   /* Return to Original Position */
+    100%{ top: -325px; opacity: 0; z-index: -1; }
+ }
+ 
+ @keyframes cyclethree {
+    0%  { top: -325px; opacity: 0; }
+    36% { top: -325px; opacity: 0; }
+    40% { top: 0px; opacity: 1; }
+    44% { top: 0px; opacity: 1; }
+    56% { top: 0px; opacity: 1; }
+    60% { top: 325px; opacity: 0; z-index: 0; }
+    61% { top: -325px; opacity: 0; z-index: -1; }
+    100%{ top: -325px; opacity: 0; z-index: -1; }
+ }
+ 
+ @keyframes cyclefour {
+    0%  { top: -325px; opacity: 0; }
+    56% { top: -325px; opacity: 0; }
+    60% { top: 0px; opacity: 1; }
+    64% { top: 0px; opacity: 1; }
+    76% { top: 0px; opacity: 1; z-index: 0; }
+    80% { top: 325px; opacity: 0; z-index: 0; }
+    81% { top: -325px; opacity: 0; z-index: -1; }
+    100%{ top: -325px; opacity: 0; z-index: -1; }
+ }
+ @keyframes cyclefive {
+    0%  { top: -325px; opacity: 0; }
+    76% { top: -325px; opacity: 0; }
+    80% { top: 0px; opacity: 1; }
+    84% { top: 0px; opacity: 1; }
+    96% { top: 0px; opacity: 1; z-index: 0; }
+    100%{ top: 325px; opacity: 0; z-index: 0; }
+ }
+
+/*Footer*/
+footer {
+    background-color: #21386845;
+    margin-top: 1.5em;
+    padding-bottom: 2em; 
+}
+
+.icons img{
+    margin-top: .75em;
+    width: 2em;
+    height: auto;
+    margin-left: 18%;
+}
+
+.footer-email a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-left: 40%;
+}
+
+
+/*Desktop Viewport*/
+@media (min-width:679px) {
+    .logo {
+        width: 45%;
+        margin-left: 13%;
+        margin-right: auto;
+    }
+    
+
+    .hero-text {
+        width: 100%;
+        text-align: center;
+    }
+
+    .hero-text p {
+        font-size: 3rem;
+    }
+}
+/* Tablet Viewport*/
+@media (max-width:678px) {
+    .hero-text p {
+        font-size: 2rem;
+    }
+}
+/*Mobile Viewport*/
+@media (max-width:428px) {
+    nav ul {
+        display: none;
+    }
+
+    /* Style the navigation menu */
+.topnav {
+    overflow: visible;
+    position: relative;
+  }
+  
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  /* Style navigation menu links */
+  .topnav a {
+    color: #000;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  /* Style the hamburger menu */
+  .topnav a.icon {
+    color: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+    .container {
+        display: block;
+    }
+    .container img {
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+
+    .hero-text p {
+        text-align: center;
+    }
+
+    main {
+        display: block;
+        text-align: center;
+    }
+
+    .services p {
+        font-family: 'DM Serif Display', serif;
+        font-size: 3em;
+        float:left;
+        margin-left: 7%;
+    }
+    
+    .services ul {
+        float:left
+    }
+    
+    .services ul li {
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 1.2em;
+        line-height: 2em;   
+    }
+    
+    .services aside img {
+        float: right;
+        width: 140px;
+        margin-top: 3em;
+        margin-right:2em;
+    }
+
+    /* SLIDER STRUCTURE */
+
+#slider {
+    
+    border: 5px solid #eaeaea;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.7);
+    margin-top: 15em;
+    width: 97%;
+    height: auto;
+    overflow: visible;
+    position: relative;
+ }
+
+ /* HIDE ALL OUTSIDE OF THE SLIDER */
+
+#mask {
+    overflow: hidden;
+    height: 200px;
+ }
+
+ /* IMAGE LIST */
+
+#slider ul {
+    margin: 0;
+    padding: 0;
+    position: relative;
+ }
+ 
+ #slider li {
+    position: absolute;
+    top: -325px; /* Original Position - Outside of the Slider */
+    list-style: none;
+ }
+   
+}
