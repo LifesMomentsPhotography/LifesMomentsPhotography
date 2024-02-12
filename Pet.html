@@ -3,6 +3,14 @@
     <html lang="en">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap" rel="stylesheet">
     <title>Pet</title>
 </head>
 
@@ -10,12 +18,36 @@
 
     <nav>
 
-        <a href="Index.html">Home</a>
-        <a href="Services.html">Services</a>
-        <a href="About.html">About</a>
-        <a href="Contact.html">Contact</a>
-
-    </nav>
+        <ul>
+             <li> <a href="Index.html">Home</a></li>
+             <li><a href="Services.html">Services</a></li>
+             <li><a href="About.html">About</a></li>
+             <li><a href="Contact.html">Contact</a></li>
+        </ul>
+        
+ <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/font-awesome.min.css">
+ 
+ <!-- Top Navigation Menu -->
+ <div class="topnav">
+     <a href="Index.html" class="active"></a>
+   <!-- Navigation links (hidden by default) -->
+   <div id="myLinks">
+    <a href="Index.html">Home</a>
+     <a href="Services.html">Services</a>
+     <a href="About.html">About</a>
+     <a href="Contact.html">Contact</a>
+   </div>
+   <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+     <i class="fa fa-bars"></i>
+   </a>
+ </div>
+ 
+        <img src="Logo.png" alt="Lifes Moments logo" class="logo">
+         
+     
+     </nav>  
 
     <header>
 
@@ -72,7 +104,7 @@
 
 
 
-
+    <script src="script.js"></script>
 
 </body>
 
