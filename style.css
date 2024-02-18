@@ -93,6 +93,7 @@ article {
     margin-right:2em;
 }
 
+
 /* SLIDER STRUCTURE */
 
 #slider {
@@ -201,25 +202,323 @@ article {
     100%{ top: 325px; opacity: 0; z-index: 0; }
  }
 
+ /*Services Page*/
+
+ .services-title {
+    padding-bottom: 2em;
+}
+
+.services-title p {
+    font-family: 'DM Serif Display', serif;
+    font-size: 3em;
+}
+
+.s-portrait-title a {
+    font-size: 2em;
+    font-family: 'DM Serif Display', serif;
+    color: black;
+    text-decoration: none;
+}
+
+.s-portrait-info {
+    font-size: 1.25em;
+    margin-left: .75em;
+    margin-right: .75em;
+    padding-top: .75em;
+    padding-bottom: 2em;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.s-pet-title a {
+    font-size: 2em;
+    font-family: 'DM Serif Display', serif;
+    color: black;
+    text-decoration: none;
+}
+
+.s-pet-info {
+    font-size: 1.25em;
+    margin-left: .75em;
+    margin-right: .75em;
+    padding-top: .75em;
+    padding-bottom: 2em;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.s-estate-title a {
+    font-size: 2em;
+    font-family: 'DM Serif Display', serif;
+    color: black;
+    text-decoration: none;
+}
+
+.s-estate-info {
+    font-size: 1.25em;
+    margin-left: .75em;
+    margin-right: .75em;
+    padding-top: .75em;
+    padding-bottom: 2em;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+/*Portrait Page*/
+.portrait-title p {
+    font-size: 2em;
+    font-family: 'DM Serif Display', serif;
+    padding: .5em;
+}
+
+.portrait-summary-title {
+    font-size: 2em;
+    font-family: 'DM Serif Display', serif;
+    padding: .5em;
+}
+
+.portrait-summary-p p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.25em;
+    margin-left: .5em;
+    margin-right: .5em;
+}
+
+.portrait-rates-title {
+    font-size: 2em;
+    font-family: 'DM Serif Display', serif;
+    padding: .5em;
+}
+
+.portrait-rates-headshots {
+    font-size: 1.6em;
+    font-family: 'DM Serif Display', serif;
+}
+
+.portrait-rates-headshots-p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.25em;
+    margin-left: .5em;
+    margin-right: .5em;
+    padding-bottom: .5em;
+    padding-top: .5em;
+}
+
+.portrait-rates-family {
+    font-size: 1.6em;
+    font-family: 'DM Serif Display', serif;
+}
+
+.portrait-rates-family-p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.25em;
+    margin-left: .5em;
+    margin-right: .5em;
+    padding-bottom: .5em;
+    padding-top: .5em;
+}
+
+.portrait-rates-solo {
+    font-size: 1.6em;
+    font-family: 'DM Serif Display', serif;
+}
+
+.portrait-rates-solo-p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.25em;
+    margin-left: .5em;
+    margin-right: .5em;
+    padding-bottom: .5em;
+    padding-top: .5em;
+}
+
+.portrait-tips-title {
+    font-size: 1.6em;
+    font-family: 'DM Serif Display', serif;
+}
+
+.portrait-tips-p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.25em;
+    margin-left: .5em;
+    margin-right: .5em;
+    padding-bottom: .5em;
+    padding-top: .5em;
+}
+
+/*PET PAGE*/
+.pet-title p {
+    font-size: 2em;
+    font-family: 'DM Serif Display', serif;
+    padding: .5em;
+}
+
+.pet-summary-title {
+    font-size: 2em;
+    font-family: 'DM Serif Display', serif;
+    padding: .5em;
+}
+
+.pet-summary-p p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.25em;
+    margin-left: .5em;
+    margin-right: .5em;
+}
+
+.pet-rates-title {
+    font-size: 2em;
+    font-family: 'DM Serif Display', serif;
+    padding: .5em;
+}
+
+.pet-rates-just-pets {
+    font-size: 1.6em;
+    font-family: 'DM Serif Display', serif;
+}
+
+.pet-rates-just-pets-p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.25em;
+    margin-left: .5em;
+    margin-right: .5em;
+    padding-bottom: .5em;
+    padding-top: .5em;
+}
+
+.pet-rates-pets-and-owners {
+    font-size: 1.6em;
+    font-family: 'DM Serif Display', serif;
+}
+
+.pet-rates-pets-and-owners-p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.25em;
+    margin-left: .5em;
+    margin-right: .5em;
+    padding-bottom: .5em;
+    padding-top: .5em;
+}
+
+.pet-tips-title {
+    font-size: 1.6em;
+    font-family: 'DM Serif Display', serif;
+}
+
+.pet-tips-p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.25em;
+    margin-left: .5em;
+    margin-right: .5em;
+    padding-bottom: .5em;
+    padding-top: .5em;
+}
+
+/*Estate Page*/
+.estate-title p {
+    font-size: 2em;
+    font-family: 'DM Serif Display', serif;
+    padding: .5em;
+}
+
+.estate-summary-title {
+    font-size: 2em;
+    font-family: 'DM Serif Display', serif;
+    padding: .5em;
+}
+
+.estate-summary-p p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.25em;
+    margin-left: .5em;
+    margin-right: .5em;
+}
+
+.estate-rates-title {
+    font-size: 2em;
+    font-family: 'DM Serif Display', serif;
+    padding: .5em;
+}
+
+.estate-rates-the-ins-and-outs {
+    font-size: 1.6em;
+    font-family: 'DM Serif Display', serif;
+}
+
+.estate-rates-the-ins-and-outs-p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.25em;
+    margin-left: .5em;
+    margin-right: .5em;
+    padding-bottom: .5em;
+    padding-top: .5em;
+}
+
+.estate-rates-everywhere {
+    font-size: 1.6em;
+    font-family: 'DM Serif Display', serif;
+}
+
+.estate-rates-everywhere-p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.25em;
+    margin-left: .5em;
+    margin-right: .5em;
+    padding-bottom: .5em;
+    padding-top: .5em;
+}
+
+.estate-tips-title {
+    font-size: 1.6em;
+    font-family: 'DM Serif Display', serif;
+}
+
+.estate-tips-p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.25em;
+    margin-left: .5em;
+    margin-right: .5em;
+    padding-bottom: .5em;
+    padding-top: .5em;
+}
+
+
+
+
 /*Footer*/
 footer {
     background-color: #21386845;
-    margin-top: 1.5em;
-    padding-bottom: 2em; 
+    margin-top: 1.75em;
+    padding-bottom: .75em; 
+    
+}
+
+.footer-logo {
+    width: 8em;
+    margin-left: 32%;
 }
 
 .icons img{
-    margin-top: .75em;
     width: 2em;
     height: auto;
-    margin-left: 18%;
+    margin-left: 19%;
+    padding-bottom: 1.75em;
+}
+
+.footer-email {
+    padding-bottom: 1.75em;
 }
 
 .footer-email a {
-    text-decoration: none;
+    text-decoration: underline;
     color: white;
     font-family: 'Josefin Sans', sans-serif;
     margin-left: 40%;
+}
+
+.footer-ap-link a {
+    text-decoration: underline;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-left: 10%;
 }
 
 
@@ -241,46 +540,84 @@ footer {
         font-size: 3rem;
     }
 }
+
+
 /* Tablet Viewport*/
+
 @media (max-width:678px) {
     .hero-text p {
         font-size: 2rem;
     }
 }
+
+
 /*Mobile Viewport*/
+
 @media (max-width:428px) {
+    .nav {
+        display: none;
+    }
     nav ul {
         display: none;
     }
 
-    /* Style the navigation menu */
+  /* Style the navigation menu */
 .topnav {
-    overflow: visible;
-    position: relative;
+    background-color: #21386845;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    color: white;
+    
   }
   
   /* Hide the links inside the navigation menu (except for logo/home) */
   .topnav #myLinks {
     display: none;
+    font-size: .75em;
+    text-decoration: underline;
+    
+
+  }
+
+  .topnav #myLinks a {
+    color: white;
   }
   
   /* Style navigation menu links */
   .topnav a {
-    color: #000;
+    color: #21386845;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 2em;
     display: block;
   }
   
   /* Style the hamburger menu */
   .topnav a.icon {
-    color: black;
     display: block;
     position: absolute;
     right: 0;
     top: 0;
   }
+
+  .topnav a.icon:hover {
+    color: white;
+    background-color: #21386845;
+  }
+  
+  /* Add a grey background color on mouse-over */
+ .topnav #myLinks a:hover {
+    background-color: #21386855;
+
+ }
+
+  /*Logo on all non-home pages*/
+.not-home-logo img {
+    width: 10em;
+    margin-left: 30%;
+   
+    
+}
   
     .container {
         display: block;
@@ -358,4 +695,93 @@ footer {
     list-style: none;
  }
    
+ /*About Page*/
+ .about-title {
+    font-size: 2em;
+    font-family: 'DM Serif Display', serif;
+ }
+ /*About Profile Cards*/
+ .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: 2em auto 2em auto;
+    text-align: center;
+    
+  }
+  
+  .card p {
+    padding-top: .75em;
+    padding-bottom: .75em;
+  }
+  .title {
+    color: grey;
+    font-size: 18px;
+  }
+  
+  button {
+    border: none;
+    display: inline-block;
+    padding: .5em;
+    color: white;
+    background-color: #21386845;
+    text-align: center;
+    width: 100%;
+    font-size: 1.5em;
+  }
+  
+  button:hover, a:hover {
+    background-color: #21386899;
+  }
+
+  .contact-title {
+    font-size: 2em;
+    font-family: 'DM Serif Display', serif;
+
+  }
+
+/*Appointment Scheduling Form*/
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 25px; /* Bottom margin */
+    resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #21386899;
+    color: white;
+    padding: 12px 12px;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    background-color: #21386845;
+    padding: 20px;
+    font-family: 'DM Serif Display', serif;
+}
+
+/* Portrait Gallery Scroll */
+.scroll-text {
+    font-family: 'DM Serif Display', serif;
+    font-size: 2em;
+}
+    div.scroll-container {
+    background-color: #21386899;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+  }
+  
+    div.scroll-container img {
+    padding: 10px;
+  }
 }
