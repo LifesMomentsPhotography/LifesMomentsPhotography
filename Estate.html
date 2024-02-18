@@ -1,40 +1,55 @@
 <!DOCTYPE html>
 <head>
-    <html lang="en">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Estate</title>
+  <html lang="en">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap" rel="stylesheet">
+  <title>About</title>
 </head>
 
 <body>
 
-    <nav>
+  <nav>
 
-        <a href="Index.html">Home</a>
-        <a href="Services.html">Services</a>
-        <a href="About.html">About</a>
-        <a href="Contact.html">Contact</a>
-
-    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/font-awesome.min.css">
+    <ul>
+         <li> <a href="Index.html">Home</a></li>
+         <li><a href="Services.html">Services</a></li>
+         <li><a href="About.html">About</a></li>
+         <li><a href="Contact.html">Contact</a></li>
+    </ul>
+    
+<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <!-- Top Navigation Menu -->
 <div class="topnav">
-    <a href="Index.html" class="active"></a>
-  <!-- Navigation links (hidden by default) -->
-  <div id="myLinks">
-    <a href="Index.html">Home</a>
-    <a href="Services.html">Services</a>
-    <a href="About.html">About</a>
-    <a href="Contact.html">Contact</a>
-  </div>
-  <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
-  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-    <i class="fa fa-bars"></i>
-  </a>
+
+<!-- Navigation links (hidden by default) -->
+<div id="myLinks">
+<a href="index.html">Home</a>
+<a href="Services.html">Services</a>
+<a href="About.html">About</a>
+<a href="Contact.html">Contact</a>
+
+</div>
+<!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+<i class="fa fa-bars"></i>
+</a>
 </div>
 
-    </nav>
+<div class="not-home-logo">
+<img src="Logo.png">
+</div>         
+ 
+ </nav>
 
     <header>
 
@@ -42,47 +57,81 @@
 
     <main>
 
-        <h1>Estate Photography</h1>
-        <h3>What is Estate Photography?</h3>
-        <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi sunt saepe officia enim obcaecati iusto labore iste nemo in veritatis a possimus numquam ut voluptas non cupiditate, molestiae quis dolor?</h5>
+      <div class="estate-title">
+        <p>Estate Photography</p>
+        </div>
+
+        <div class="estate-summary-title">
+        <p>What is Estate Photography?</p>
+        </div>
+        <div class="estate-summary-p">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi sunt saepe officia enim obcaecati iusto labore iste nemo in veritatis a possimus numquam ut voluptas non cupiditate, molestiae quis dolor?</p>
+        </div>
+
+        <div class="estate-rates-title">
+        <p>Pricing Rates</p>
+        </div>
+
+        <div class="estate-rates-the-ins-and-outs">
+        <p>The Ins & Outs - $$$</p>
+        </div>
+        <div class="estate-rates-the-ins-and-outs-p">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque eius veniam maiores doloremque earum consectetur dicta molestias! Possimus, vel blanditiis perspiciatis alias error ut saepe architecto quod expedita, iure eos!</p>
+        </div>
+
+        <div class="estate-rates-everywhere">
+        <p>Everywhere and in the Air - $$$</p>
+        </div>
+        <div class="estate-rates-everywhere-p">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque eius veniam maiores doloremque earum consectetur dicta molestias! Possimus, vel blanditiis perspiciatis alias error ut saepe architecto quod expedita, iure eos!</p>
+        </div>
+
+        <div class="estate-tips-title">
+        <p>Information and Tips for your Photo Session</p>
+        </div>
+        <div class="estate-tips-p">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque eius veniam maiores doloremque earum consectetur dicta molestias! Possimus, vel blanditiis perspiciatis alias error ut saepe architecto quod expedita, iure eos!</p>
+        </div>
 
 
-        <h3>Pricing Rates</h3>
-        
-        <h4>The Ins & Outs - $$$</h4>
-        <h5>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque eius veniam maiores doloremque earum consectetur dicta molestias! Possimus, vel blanditiis perspiciatis alias error ut saepe architecto quod expedita, iure eos!</h5>
+        <div class="scroll-text">
+          <p>Gallery</p>
+        </div>
 
-        <h4>Everywhere and in the Air - $$$</h4>
-        <h5>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque eius veniam maiores doloremque earum consectetur dicta molestias! Possimus, vel blanditiis perspiciatis alias error ut saepe architecto quod expedita, iure eos!</h5>
+      <!--Image Gallery-->
+      <div class="scroll-container">
+        <img src="Estate1.png" alt="" style="width: 100%">
+        <img src="Estate2.png" alt="" style="width: 100%">
+        <img src="Estate3.png" alt="" style="width: 100%">
+        <img src="Estate4.png" alt=""style="width: 100%">
+        <img src="Estate5.png" alt=""style="width: 100%">
 
-
-        <h3>Information and Tips for your photo session.</h3>
-        <h5>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque eius veniam maiores doloremque earum consectetur dicta molestias! Possimus, vel blanditiis perspiciatis alias error ut saepe architecto quod expedita, iure eos!</h5>
-
-        <img src="FillerImage.jpg" width="150em"></img>
-        <img src="FillerImage.jpg" width="150em"></img>
-        <img src="FillerImage.jpg" width="150em"></img>
-        <img src="FillerImage.jpg" width="150em"></img>
-        <img src="FillerImage.jpg" width="150em"></img>
-        <img src="FillerImage.jpg" width="150em"></img>
+      </div>
 
 
     </main>
 
     <footer>
-      
-        <img src="FillerImage.jpg" width="30em"></img>
-        <img src="FillerImage.jpg" width="30em"></img>
-        <img src="FillerImage.jpg" width="30em"></img>
-        <img src="FillerImage.jpg" width="30em"></img>
-      <h6>*SOCIAL MEDIA ICONS*</h6>  
 
-      <h6>*EMAIL*</h6>
+      <div class="footer-logo">
+        <img src="Logo.png" style="width:100%">
+      </div>
 
-      <img src="FillerImage.jpg" width="30em"></img>
-      <h6>*LOGO*</h6>
+      <div class="icons">
+        <img src="Facebook-logo.png">
+        <img src="Instagram-logo.png">
+        <img src="X-logo.png">
+        </div>
+
+        <div class="footer-email">
+            <a href="mailto:Lifesmoments@captureit.com">EMAIL US!</a>
+        </div>
+
+      <div class="footer-ap-link">
+        <a href="Contact.html">SCHEDULE AN APPOINTMENT WITH US!</a>
+      </div>
       
-      <h6>*SCHEDULE APPOINTMENT LINK*</h6>
+  
     </footer>
 
 
@@ -90,7 +139,7 @@
 
 
 
-
+    <script src="script.js"></script>
 
 </body>
 
