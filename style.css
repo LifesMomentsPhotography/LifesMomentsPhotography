@@ -761,8 +761,16 @@ input[type=text], select, textarea {
   .form-container {
     border-radius: 5px;
     background-color: #21386845;
-    padding: 20px;
     font-family: 'DM Serif Display', serif;
+    height: 600px;
+    padding: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
 }
 
 /* Portrait Gallery Scroll */
