@@ -788,4 +788,25 @@ input[type=text], select, textarea {
     div.scroll-container img {
     padding: 10px;
   }
+
+ /*Contact Page Map and Hours*/
+  .map {
+    margin-top: 2em;
+    margin-bottom: 2em;
+  }
+
+  .hours-title {
+    font-family: 'DM Serif Display', serif;
+    font-size: 2em;
+  }
+
+  .hours ul {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.25em;
+    margin-top: .75em;
+  }
+
+  .hours ul li {
+    padding: .25em;
+  }
 }
