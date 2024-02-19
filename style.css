@@ -793,6 +793,8 @@ input[type=text], select, textarea {
   .map {
     margin-top: 2em;
     margin-bottom: 2em;
+    width: 95%;
+    margin-left: 7px;
   }
 
   .hours-title {
