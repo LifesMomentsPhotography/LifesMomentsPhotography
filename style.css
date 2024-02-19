@@ -728,10 +728,6 @@ footer {
     width: 100%;
     font-size: 1.5em;
   }
-  
-  button:hover, a:hover {
-    background-color: #21386899;
-  }
 
   .contact-title {
     font-size: 2em;
@@ -762,7 +758,7 @@ input[type=text], select, textarea {
   }
   
   /* Add a background color and some padding around the form */
-  .container {
+  .form-container {
     border-radius: 5px;
     background-color: #21386845;
     padding: 20px;
