@@ -17,31 +17,43 @@
 <body>
 
   <nav>
+    <div class="navbar">
+      <a href="index.html">Home</a>
+      <div class="dropdown">
+      <button class="dropbtn" onclick="myFunction()">Services
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content" id="myDropdown">
+        <a href="Services.html">All Services</a>
+        <a href="Portrait.html">Portrait</a>
+        <a href="Pet.html">Pet</a>
+        <a href="Estate.html">Estate</a>
+      </div>
+      </div> 
+      <a href="About.html">About</a>
+      <a href="Contact.html">Contact</a>
+    </div>
 
-    <ul>
-         <li> <a href="Index.html">Home</a></li>
-         <li><a href="Services.html">Services</a></li>
-         <li><a href="About.html">About</a></li>
-         <li><a href="Contact.html">Contact</a></li>
-    </ul>
-    
+     
 <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <!-- Top Navigation Menu -->
 <div class="topnav">
 
+
+
 <!-- Navigation links (hidden by default) -->
 <div id="myLinks">
-<a href="index.html">Home</a>
-<a href="Services.html">Services</a>
-<a href="About.html">About</a>
-<a href="Contact.html">Contact</a>
+  <a href="index.html">Home</a>
+  <a href="Services.html">Services</a>
+  <a href="About.html">About</a>
+  <a href="Contact.html">Contact</a>
 
 </div>
 <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
-<a href="javascript:void(0);" class="icon" onclick="myFunction()">
-<i class="fa fa-bars"></i>
+<a href="javascript:void(0);" class="icon" onclick="myFunction1()">
+  <i class="fa fa-bars"></i>
 </a>
 </div>
 
@@ -92,7 +104,18 @@
         </div>
 
         <div class="map-tablet">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1752.6372807018731!2d-82.62798!3d28.531466!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88e8213d4acb829f%3A0xfd57f72040c7ed0e!2s7224%20Shoal%20Line%20Blvd%2C%20Spring%20Hill%2C%20FL%2034607!5e0!3m2!1sen!2sus!4v1708832539263!5m2!1sen!2sus" width="600" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>        </div>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1752.6372807018731!2d-82.62798!3d28.531466!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88e8213d4acb829f%3A0xfd57f72040c7ed0e!2s7224%20Shoal%20Line%20Blvd%2C%20Spring%20Hill%2C%20FL%2034607!5e0!3m2!1sen!2sus!4v1708832539263!5m2!1sen!2sus" width="600" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>        
+        </div>
+
+        <div class="contact-info">
+          <p>Calls Us!</p>
+        </div>
+        <div class="contact-info-number">
+          <p>(123)-456-7890</p>
+        </div>
+
+
+
 
           <div class="hours">
             <div class="hours-title">
