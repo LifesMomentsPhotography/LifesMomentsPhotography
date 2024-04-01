@@ -71,12 +71,9 @@ article {
 .services p {
     font-family: 'DM Serif Display', serif;
     font-size: 3em;
-    float:left;
+
 }
 
-.services ul {
-    float:left
-}
 
 .services ul li {
     font-family: 'Josefin Sans', sans-serif;
@@ -85,7 +82,7 @@ article {
 }
 
 .services aside img {
-    float: right;
+   
     width: 20em;
     margin-top: 3em;
     margin-right:2em;
@@ -523,8 +520,8 @@ footer {
 
 
 
-/*Desktop Viewport*/
-@media (min-width:1025px) {
+/*Expanded Viewport*/
+@media (min-width:1280px) {
     .logo {
         width: 45%;
         margin-left: 13%;
@@ -547,22 +544,31 @@ footer {
         text-align: center;
     }
 
+    .goal {
+        font-size: 1.5em;
+    }
+
     .services {
-        padding-left: 21em;
-        padding-right: auto;
+        display: grid;
+        justify-content: center;
+        margin-right: 2em;
+        
+        
     }
 
     .services ul{
-        font-size: 1.25em;
+        font-size: 1.5em;
 
     }
 
     .services aside {
-        display: none;
+        font-size: 0em;
+        
     }
 
+
     .footer-logo img{
-        margin-left: 30%;
+        padding-left: 25px;
     }
     
     .icons {
@@ -574,37 +580,497 @@ footer {
     }
 
     .footer-ap-link {
-        margin-left: 12%;
+       margin-left: 10%; 
+        
     }
-    
-    /*END OF SERVICE SECTION*/
 
-    /*Home Page Slideshow*/
-    #slider {
-        border: 5px solid #eaeaea;
-        box-shadow: 1px 1px 5px rgba(0,0,0,0.7);
-        width: 650px;
-        margin-left: 20%;
-    
-     }
+    /*Add Testimonial CSS Here*/
+ .checked {
+        color: orange;
+    }
 
-     #slider ul li img {
-        height: 375px;
-        width: auto;
-     }
+.testimonials {
+
+    background: #f9f9f9;
+    text-align: center;
+    font-size: 1.5em;
+    padding: 5%;
+    
+}
+
+.col {
+    width: 50%;
+    display: inline-block;
+    padding: 20px;
+    background: #21386825;
+    margin: 30px 5px;
+    border-style: double;
+}
+
+.testimonials h1 {
+    font-size: 2.5em;
+}
+
+.testimonial img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+
+
+
+    
+
+
+    .not-home-logo {
+        width: 30%;
+        margin-left: 34%;
+    }
 
      /*Services Page*/
 
      .s-portrait-title {
-        margin-right: 25%;
+        padding-left: 26.5%;
+     }
+
+     .s-portrait-info {
+        font-size: 1.75em;
      }
 
      .s-pet-title {
-        margin-right: 30%;
+        padding-left: 31.75%;
+     }
+     .s-pet-info {
+        font-size: 1.75em;
      }
 
      .s-estate-title {
-        margin-right: 27%;
+        padding-left: 28.2%;
+     }
+
+     .s-estate-info {
+        font-size: 1.75em;
+     }
+    
+     /*Category Pages*/
+
+      /*Portrait Page*/
+   
+.portrait-title p {
+    font-size: 3em;
+    font-family: 'DM Serif Display', serif;
+    padding: .5em;
+    text-align: center;
+}
+
+.portrait-summary-title {
+    font-size: 2.5em;
+    font-family: 'DM Serif Display', serif;
+    padding: .5em;
+    text-align: center;
+}
+
+.portrait-summary-p p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2em;
+    margin-left: .5em;
+    margin-right: .5em;
+    text-align: center;
+}
+
+.portrait-rates-title {
+    font-size: 2.75em;
+    font-family: 'DM Serif Display', serif;
+    padding-top: 1.5em;
+    padding-bottom: .5em;
+    text-align: center;
+}
+
+.portrait-rates-headshots {
+    font-size: 2.5em;
+    font-family: 'DM Serif Display', serif;
+    text-align: center;
+
+}
+
+.portrait-rates-headshots-p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2em;
+    margin-left: .5em;
+    margin-right: .5em;
+    padding-bottom: .5em;
+    padding-top: .5em;
+    text-align: center;
+}
+
+.portrait-rates-family {
+    font-size: 2.5em;
+    font-family: 'DM Serif Display', serif;
+    text-align: center;
+
+}
+
+.portrait-rates-family-p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2em;
+    margin-left: .5em;
+    margin-right: .5em;
+    padding-bottom: .5em;
+    padding-top: .5em;
+    text-align: center;
+
+}
+
+.portrait-rates-solo {
+    font-size: 2.5em;
+    font-family: 'DM Serif Display', serif;
+    text-align: center;
+
+}
+
+.portrait-rates-solo-p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2em;
+    margin-left: .5em;
+    margin-right: .5em;
+    padding-bottom: .5em;
+    padding-top: .5em;
+    text-align: center;
+
+}
+
+.portrait-tips-title {
+    font-size: 2.3em;
+    font-family: 'DM Serif Display', serif;
+    text-align: center;
+
+}
+
+.portrait-tips-p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2em;
+    margin-left: .5em;
+    margin-right: .5em;
+    padding-bottom: .5em;
+    padding-top: .5em;
+    text-align: center;
+
+}
+
+/* Service Pages Gallery Scroll */
+.scroll-text {
+    font-family: 'DM Serif Display', serif;
+    font-size: 2em;
+    text-align: center;
+    padding: .5em;
+}
+    div.scroll-container {
+    background-color: #21386899;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+  }
+  
+    div.scroll-container img {
+    padding: 10px;
+  }
+
+/*PET PAGE*/
+.pet-title p {
+    font-size: 3em;
+    font-family: 'DM Serif Display', serif;
+    padding: .5em;
+    text-align: center;
+}
+
+.pet-summary-title {
+    font-size: 2.5em;
+    font-family: 'DM Serif Display', serif;
+    padding: .5em;
+    text-align: center;
+}
+
+.pet-summary-p p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2em;
+    margin-left: .5em;
+    margin-right: .5em;
+    text-align: center;
+}
+
+.pet-rates-title {
+    font-size: 2.75em;
+    font-family: 'DM Serif Display', serif;
+    padding-top: 1.5em;
+    padding-bottom: .5em;
+    text-align: center;
+}
+
+.pet-rates-just-pets {
+    font-size: 2.5em;
+    font-family: 'DM Serif Display', serif;
+    text-align: center;
+}
+
+.pet-rates-just-pets-p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2em;
+    margin-left: .5em;
+    margin-right: .5em;
+    padding-bottom: .5em;
+    padding-top: .5em;
+    text-align: center;
+}
+
+.pet-rates-pets-and-owners {
+    font-size: 2.5em;
+    font-family: 'DM Serif Display', serif;
+    text-align: center;
+}
+
+.pet-rates-pets-and-owners-p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2em;
+    margin-left: .5em;
+    margin-right: .5em;
+    padding-bottom: .5em;
+    padding-top: .5em;
+    text-align: center;
+}
+
+.pet-tips-title {
+    font-size: 2.3em;
+    font-family: 'DM Serif Display', serif;
+    text-align: center;
+}
+
+.pet-tips-p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2em;
+    margin-left: .5em;
+    margin-right: .5em;
+    padding-bottom: .5em;
+    padding-top: .5em;
+    text-align: center;
+}
+
+/*Estate Page*/
+.estate-title p {
+    font-size: 3em;
+    font-family: 'DM Serif Display', serif;
+    padding: .5em;
+    text-align: center;
+}
+
+.estate-summary-title {
+    font-size: 2.5em;
+    font-family: 'DM Serif Display', serif;
+    padding: .5em;
+    text-align: center;
+}
+
+.estate-summary-p p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2em;
+    margin-left: .5em;
+    margin-right: .5em;
+    text-align: center;
+}
+
+
+.estate-rates-title {
+    font-size: 2.75em;
+    font-family: 'DM Serif Display', serif;
+    padding-top: 1.5em;
+    padding-bottom: .5em;
+    text-align: center;
+}
+
+.estate-rates-the-ins-and-outs {
+    font-size: 2.5em;
+    font-family: 'DM Serif Display', serif;
+    text-align: center;
+}
+
+.estate-rates-the-ins-and-outs-p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2em;
+    padding-bottom: .5em;
+    padding-top: .5em;
+    text-align: center;
+}
+
+.estate-rates-everywhere {
+    font-size: 2.5em;
+    font-family: 'DM Serif Display', serif;
+    text-align: center;
+}
+
+.estate-rates-everywhere-p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2em;
+    padding-bottom: .5em;
+    padding-top: .5em;
+    text-align: center;
+}
+
+.estate-tips-title {
+    font-size: 2.3em;
+    font-family: 'DM Serif Display', serif;
+    text-align: center;
+}
+
+.estate-tips-p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2em;
+    margin-left: .5em;
+    margin-right: .5em;
+    padding-bottom: .5em;
+    padding-top: .5em;
+    text-align: center;
+}
+
+/*About Page*/
+/*About Page*/
+.about-title {
+    font-size: 4em;
+    font-family: 'DM Serif Display', serif;
+    text-align: center;
+ }
+ /*About Profile Cards*/
+ .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    margin: 2em auto 2em auto;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    
+  }
+  
+  .card p {
+    padding: 1em;
+    font-size: 2em;
+  }
+
+  .card h1 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 3em;
+  }
+  .title {
+    color: grey;
+    font-size: 18px;
+    font-size: 5em;
+    font-family: 'DM Serif Display', serif;
+  }
+  
+  button {
+    border: none;
+    display: inline-block;
+    padding: .5em;
+    color: white;
+    background-color: #21386845;
+    text-align: center;
+    width: 100%;
+    font-size: 1.5em;
+  }
+
+  .contact-title {
+    font-size: 4em;
+    font-family: 'DM Serif Display', serif;
+    text-align: center;
+
+  }
+
+  /*Appointment Scheduling Form*/
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 25px; /* Bottom margin */
+    resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+    font-size: 1.15em;
+
+
+}
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #21386899;
+    color: white;
+    padding: 12px 12px;
+    border: none;
+    border-radius: 4px;
+    margin-left: 40%;
+    font-size: 1.5em;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .form-container {
+    border-radius: 5px;
+    background-color: #21386845;
+    font-family: 'DM Serif Display', serif;
+    height: 800px;
+    padding: 1.25em;
+    margin-left: 40px;
+    margin-right: 40px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    font-size: 1.6em;
+}
+
+ /*Contact Page Map and Hours*/
+ .map {
+    display: none;
+  }
+
+  .map-tablet {
+    padding: 2em;
+    text-align: center;
+
+  }
+
+  .contact-info {
+    font-family: 'DM Serif Display', serif;
+    font-size: 3.5em;
+    text-align: center;
+  }
+
+  .contact-info-number {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2em;
+    padding: 2em;
+    text-align: center;
+  }
+
+
+  .hours-title {
+    font-family: 'DM Serif Display', serif;
+    font-size: 3.5em;
+    text-align: center;
+  }
+
+  .hours ul {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2em;
+    margin-top: .75em;
+    text-align: center;
+
+  }
+
+  .hours ul li {
+    padding: .25em;
+    text-align: center;
+  }
+     .map {
+        display: none;
      }
 
     
@@ -619,12 +1085,667 @@ footer {
 
 
 
+/*Tablet Landscape*/
+@media (min-width:1000px) {
+    .logo {
+        width: 45%;
+        margin-left: 13%;
+        margin-right: auto;
+    }
+    
 
+    .hero-text {
+        width: 100%;
+        text-align: center;
+    }
+
+    .hero-text p {
+        font-size: 3rem;
+    
+    }
+
+    .hero-text p {
+        font-size: 3em;
+    }
+
+    /*Hide Hamburger Menu*/
+    #myLinks {
+        display: none;
+    }
+
+    .topnav a.icon {
+        display: none;
+    }
+
+    /*Tablet Navbar and Dropdown*/
+    .navbar {
+        overflow: hidden;
+        font-family: 'Josefin Sans', sans-serif;
+        float: right;
+        
+        
+      }
+      
+      .navbar a {
+        float: left;
+        color: black;
+        text-align: center;
+        text-decoration: none;
+        font-size: 2em;
+        padding: 1.25em;
+      }
+      
+      .dropdown {
+        float: left;
+        overflow: hidden;
+      }
+      
+      .dropdown .dropbtn {
+        cursor: pointer;
+        font-size: 2em;
+        border: none;
+        outline: none;
+        color: black;
+        background-color: inherit;
+        font-family: inherit;
+        margin: 0;
+        padding: 1.25em;
+      }
+      
+      
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+      
+      .dropdown-content a {
+        float: none;
+        color: black;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+        padding: 1em;
+        text-align: center;
+      }
+      
+      .dropdown-content a:hover {
+        background-color: #21386845;
+      }
+      
+      .show {
+        display: block;
+      }
+
+      .goal {
+        font-size: 1.5em;
+      }
+/*END TABLET NAVBAR*/
+
+
+    /*Services and Image*/
+
+    main {
+        display: block;
+        text-align: center;
+    }
+
+    .services {
+        display: grid;
+        justify-content: center;
+        margin-right: 2em;
+        
+        
+    }
+
+    .services ul{
+        font-size: 1.5em;
+        margin-bottom: 70px;
+
+    }
+
+    .services aside {
+        font-size: 0em;
+        
+    }
+
+
+    .footer-logo img{
+        margin-left: 110%;
+    }
+    
+    .icons {
+      margin-left: 12.5%;
+    }
+
+    .footer-email a {
+        margin-left: 46.7%;
+    }
+
+    .footer-ap-link {
+       margin-left: 30%;
+       margin-bottom: 40px;
+        
+    }
+    
+    /*END OF SERVICE SECTION*/
+
+
+     /*Services Page*/
+
+     .s-portrait-title {
+        margin-right: 25%;
+     }
+
+     .s-pet-title {
+        margin-right: 30%;
+     }
+
+     .s-estate-title {
+        margin-right: 27%;
+     }  .not-home-logo {
+        width: 30%;
+        margin-left: 34%;
+    }
+
+     /*Services Page*/
+
+     .s-portrait-title {
+        padding-left: 26.5%;
+     }
+
+     .s-portrait-info {
+        font-size: 1.75em;
+     }
+
+     .s-pet-title {
+        padding-left: 31.75%;
+     }
+     .s-pet-info {
+        font-size: 1.75em;
+     }
+
+     .s-estate-title {
+        padding-left: 28.2%;
+     }
+
+     .s-estate-info {
+        font-size: 1.75em;
+     }
+    
+     /*Category Pages*/
+
+      /*Portrait Page*/
+   
+.portrait-title p {
+    font-size: 3em;
+    font-family: 'DM Serif Display', serif;
+    padding: .5em;
+    text-align: center;
+}
+
+.portrait-summary-title {
+    font-size: 2.5em;
+    font-family: 'DM Serif Display', serif;
+    padding: .5em;
+    text-align: center;
+}
+
+.portrait-summary-p p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2em;
+    margin-left: .5em;
+    margin-right: .5em;
+    text-align: center;
+}
+
+.portrait-rates-title {
+    font-size: 2.75em;
+    font-family: 'DM Serif Display', serif;
+    padding-top: 1.5em;
+    padding-bottom: .5em;
+    text-align: center;
+}
+
+.portrait-rates-headshots {
+    font-size: 2.5em;
+    font-family: 'DM Serif Display', serif;
+    text-align: center;
+
+}
+
+.portrait-rates-headshots-p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2em;
+    margin-left: .5em;
+    margin-right: .5em;
+    padding-bottom: .5em;
+    padding-top: .5em;
+    text-align: center;
+}
+
+.portrait-rates-family {
+    font-size: 2.5em;
+    font-family: 'DM Serif Display', serif;
+    text-align: center;
+
+}
+
+.portrait-rates-family-p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2em;
+    margin-left: .5em;
+    margin-right: .5em;
+    padding-bottom: .5em;
+    padding-top: .5em;
+    text-align: center;
+
+}
+
+.portrait-rates-solo {
+    font-size: 2.5em;
+    font-family: 'DM Serif Display', serif;
+    text-align: center;
+
+}
+
+.portrait-rates-solo-p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2em;
+    margin-left: .5em;
+    margin-right: .5em;
+    padding-bottom: .5em;
+    padding-top: .5em;
+    text-align: center;
+
+}
+
+.portrait-tips-title {
+    font-size: 2.3em;
+    font-family: 'DM Serif Display', serif;
+    text-align: center;
+
+}
+
+.portrait-tips-p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2em;
+    margin-left: .5em;
+    margin-right: .5em;
+    padding-bottom: .5em;
+    padding-top: .5em;
+    text-align: center;
+
+}
+
+/* Service Pages Gallery Scroll */
+.scroll-text {
+    font-family: 'DM Serif Display', serif;
+    font-size: 2em;
+    text-align: center;
+    padding: .5em;
+}
+    div.scroll-container {
+    background-color: #21386899;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+  }
+  
+    div.scroll-container img {
+    padding: 10px;
+  }
+
+/*PET PAGE*/
+.pet-title p {
+    font-size: 3em;
+    font-family: 'DM Serif Display', serif;
+    padding: .5em;
+    text-align: center;
+}
+
+.pet-summary-title {
+    font-size: 2.5em;
+    font-family: 'DM Serif Display', serif;
+    padding: .5em;
+    text-align: center;
+}
+
+.pet-summary-p p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2em;
+    margin-left: .5em;
+    margin-right: .5em;
+    text-align: center;
+}
+
+.pet-rates-title {
+    font-size: 2.75em;
+    font-family: 'DM Serif Display', serif;
+    padding-top: 1.5em;
+    padding-bottom: .5em;
+    text-align: center;
+}
+
+.pet-rates-just-pets {
+    font-size: 2.5em;
+    font-family: 'DM Serif Display', serif;
+    text-align: center;
+}
+
+.pet-rates-just-pets-p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2em;
+    margin-left: .5em;
+    margin-right: .5em;
+    padding-bottom: .5em;
+    padding-top: .5em;
+    text-align: center;
+}
+
+.pet-rates-pets-and-owners {
+    font-size: 2.5em;
+    font-family: 'DM Serif Display', serif;
+    text-align: center;
+}
+
+.pet-rates-pets-and-owners-p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2em;
+    margin-left: .5em;
+    margin-right: .5em;
+    padding-bottom: .5em;
+    padding-top: .5em;
+    text-align: center;
+}
+
+.pet-tips-title {
+    font-size: 2.3em;
+    font-family: 'DM Serif Display', serif;
+    text-align: center;
+}
+
+.pet-tips-p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2em;
+    margin-left: .5em;
+    margin-right: .5em;
+    padding-bottom: .5em;
+    padding-top: .5em;
+    text-align: center;
+}
+
+/*Estate Page*/
+.estate-title p {
+    font-size: 3em;
+    font-family: 'DM Serif Display', serif;
+    padding: .5em;
+    text-align: center;
+}
+
+.estate-summary-title {
+    font-size: 2.5em;
+    font-family: 'DM Serif Display', serif;
+    padding: .5em;
+    text-align: center;
+}
+
+.estate-summary-p p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2em;
+    margin-left: .5em;
+    margin-right: .5em;
+    text-align: center;
+}
+
+
+.estate-rates-title {
+    font-size: 2.75em;
+    font-family: 'DM Serif Display', serif;
+    padding-top: 1.5em;
+    padding-bottom: .5em;
+    text-align: center;
+}
+
+.estate-rates-the-ins-and-outs {
+    font-size: 2.5em;
+    font-family: 'DM Serif Display', serif;
+    text-align: center;
+}
+
+.estate-rates-the-ins-and-outs-p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2em;
+    padding-bottom: .5em;
+    padding-top: .5em;
+    text-align: center;
+}
+
+.estate-rates-everywhere {
+    font-size: 2.5em;
+    font-family: 'DM Serif Display', serif;
+    text-align: center;
+}
+
+.estate-rates-everywhere-p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2em;
+    padding-bottom: .5em;
+    padding-top: .5em;
+    text-align: center;
+}
+
+.estate-tips-title {
+    font-size: 2.3em;
+    font-family: 'DM Serif Display', serif;
+    text-align: center;
+}
+
+.estate-tips-p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2em;
+    margin-left: .5em;
+    margin-right: .5em;
+    padding-bottom: .5em;
+    padding-top: .5em;
+    text-align: center;
+}
+
+/*About Page*/
+/*About Page*/
+.about-title {
+    font-size: 4em;
+    font-family: 'DM Serif Display', serif;
+    text-align: center;
+ }
+ /*About Profile Cards*/
+ .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    margin: 2em auto 2em auto;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    
+  }
+  
+  .card p {
+    padding: 1em;
+    font-size: 2em;
+  }
+
+  .card h1 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 3em;
+  }
+  .title {
+    color: grey;
+    font-size: 18px;
+    font-size: 5em;
+    font-family: 'DM Serif Display', serif;
+  }
+  
+  button {
+    border: none;
+    display: inline-block;
+    padding: .5em;
+    color: white;
+    background-color: #21386845;
+    text-align: center;
+    width: 100%;
+    font-size: 1.5em;
+  }
+
+  .contact-title {
+    font-size: 4em;
+    font-family: 'DM Serif Display', serif;
+    text-align: center;
+
+  }
+
+  /*Appointment Scheduling Form*/
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 25px; /* Bottom margin */
+    resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+    font-size: 1.15em;
+
+
+}
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #21386899;
+    color: white;
+    padding: 12px 12px;
+    border: none;
+    border-radius: 4px;
+    margin-left: 40%;
+    font-size: 1.5em;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .form-container {
+    border-radius: 5px;
+    background-color: #21386845;
+    font-family: 'DM Serif Display', serif;
+    height: 800px;
+    padding: 1.25em;
+    margin-left: 40px;
+    margin-right: 40px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    font-size: 1.6em;
+}
+
+ /*Contact Page Map and Hours*/
+ .map {
+    display: none;
+  }
+
+  .map-tablet {
+    padding: 2em;
+    text-align: center;
+
+  }
+
+  .contact-info {
+    font-family: 'DM Serif Display', serif;
+    font-size: 3.5em;
+    text-align: center;
+  }
+
+  .contact-info-number {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2em;
+    padding: 2em;
+    text-align: center;
+  }
+
+
+  .hours-title {
+    font-family: 'DM Serif Display', serif;
+    font-size: 3.5em;
+    text-align: center;
+  }
+
+  .hours ul {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2em;
+    margin-top: .75em;
+    text-align: center;
+
+  }
+
+  .hours ul li {
+    padding: .25em;
+    text-align: center;
+  }
+
+  .map {
+    display: none;
+  }
+
+  .checked {
+    color: orange;
+}
+
+.testimonials {
+
+background: #f9f9f9;
+text-align: center;
+font-size: 1.5em;
+padding: 5%;
+
+}
+
+.col {
+width: 50%;
+display: inline-block;
+padding: 20px;
+background: #21386825;
+margin: 30px 5px;
+border-style: double;
+}
+
+.testimonials h1 {
+font-size: 2.5em;
+}
+
+.testimonial img {
+width: 100px;
+height: 100px;
+border-radius: 50%;
+}
+
+    
+
+
+
+
+    
+    
+    
+
+     
+    
+}
 
 
 /* Tablet Viewport*/
 
-@media (min-width:768px) {
+@media (min-width:501px) and (max-width:999px) {
     .hero-text p {
         font-size: 3em;
     }
@@ -719,6 +1840,7 @@ footer {
         margin-left: 2em;
         font-size: 1.35em;
         padding-bottom: 2em;
+        margin-bottom: 300px;
     }
     .services p {
         font-family: 'DM Serif Display', serif;
@@ -1265,6 +2387,10 @@ input[type=text], select, textarea {
     text-align: center;
   }
 
+  .testimonials {
+    size: 0%;
+    display: none;
+  }
 }
 
 
@@ -1277,7 +2403,7 @@ input[type=text], select, textarea {
 
 /*Mobile Viewport*/
 
-@media (max-width:468px) {
+@media (max-width:500px) {
     .navbar {
         display: none;
     }
@@ -1369,6 +2495,10 @@ article {
         text-align: center;
     }
 
+    .services {
+        margin-bottom: 300px;
+    }
+
     .services p {
         font-family: 'DM Serif Display', serif;
         font-size: 3em;
@@ -1392,40 +2522,6 @@ article {
         margin-top: 3em;
         margin-right:2em;
     }
-
-    /* SLIDER STRUCTURE */
-
-#slider {
-    
-    border: 5px solid #eaeaea;
-    box-shadow: 1px 1px 5px rgba(0,0,0,0.7);
-    margin-top: 15em;
-    width: 97%;
-    height: auto;
-    overflow: visible;
-    position: relative;
- }
-
- /* HIDE ALL OUTSIDE OF THE SLIDER */
-
-#mask {
-    overflow: hidden;
-    height: 200px;
- }
-
- /* IMAGE LIST */
-
-#slider ul {
-    margin: 0;
-    padding: 0;
-    position: relative;
- }
- 
- #slider li {
-    position: absolute;
-    top: -325px; /* Original Position - Outside of the Slider */
-    list-style: none;
- }
    
  /*About Page*/
  .about-title {
@@ -1558,4 +2654,35 @@ input[type=text], select, textarea {
   .map-tablet {
     display: none;
   }
+  .testimonials {
+    size: 0%;
+    display: none;
+  }
+}
+
+/*Mini Apple Products and Android Products*/
+@media (max-width:360px) {
+    .goal {
+        margin-top: 150px;
+    }
+
+    .footer-ap-link {
+        font-size: .85em;
+        text-align: center;
+    }
+
+    footer {
+        padding-bottom: 35px;
+        padding-right: 35px;
+}
+
+.testimonials {
+    size: 0%;
+    display: none;
+  }
+
+  .services {
+    margin-bottom: 500px;
+  }
+
 }
