@@ -617,12 +617,6 @@ footer {
     border-radius: 50%;
 }
 
-
-
-
-    
-
-
     .not-home-logo {
         width: 30%;
         margin-left: 34%;
@@ -932,7 +926,6 @@ footer {
 }
 
 /*About Page*/
-/*About Page*/
 .about-title {
     font-size: 4em;
     font-family: 'DM Serif Display', serif;
@@ -1073,20 +1066,68 @@ input[type=text], select, textarea {
         display: none;
      }
 
-    
-    
+    /* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+
+  #myBtn {
+    width: 25%;
+    margin-bottom: 2em;
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2);
+   
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: white;
+    font-family: 'DM Serif Display', serif;
+    font-size: 3em;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+
+}
+
+  .modal-content a {
+    text-decoration: underline;
+    color: black;
+  }
+
+  /* The Close Button */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+}    
     
 
-     
-    
-}
 
 
 
 
 
 /*Tablet Landscape*/
-@media (min-width:1000px) {
+@media (min-width:1000px){
     .logo {
         width: 45%;
         margin-left: 13%;
@@ -1727,18 +1768,65 @@ font-size: 2.5em;
 width: 100px;
 height: 100px;
 border-radius: 50%;
+}  
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: white;
+    font-family: 'DM Serif Display', serif;
+    font-size: 3em;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+    align-items: center;
 }
 
-    
+  .modal-content a {
+    text-decoration: underline;
+    color: black;
+  }
 
+  #myBtn {
+    width: 25%;
+    margin-bottom: 2em;
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2);
+   
+  }
 
+  .modal-content img {
+    display: none;
+  }
 
-
-    
-    
-    
-
-     
+  
+  /* The Close Button */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
     
 }
 
@@ -2391,6 +2479,31 @@ input[type=text], select, textarea {
     size: 0%;
     display: none;
   }
+
+  #myModal {
+    display: none;
+  }
+
+  #myBtn {
+    display: none;
+  }
+
+  /* The Modal (background) */
+.modal {
+    display: none; 
+  }
+  
+  
+  /* The Close Button */
+  .close {
+    display: none;
+  }
+  
+  .close:hover,
+  .close:focus {
+    display: none;
+  }
+  
 }
 
 
@@ -2658,6 +2771,34 @@ input[type=text], select, textarea {
     size: 0%;
     display: none;
   }
+
+  #myModal {
+    display: none;
+  }
+
+  #myBtn {
+    display: none;
+  }
+
+  /* The Modal (background) */
+.modal {
+    display: none; 
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    display: none;
+  }
+  
+  /* The Close Button */
+  .close {
+    display: none;
+  }
+  
+  .close:hover,
+  .close:focus {
+    display: none;
+  }
 }
 
 /*Mini Apple Products and Android Products*/
@@ -2685,4 +2826,33 @@ input[type=text], select, textarea {
     margin-bottom: 500px;
   }
 
+  #myModal {
+    display: none;
+  }
+
+  #myBtn {
+    display: none;
+  }
+
+  /* The Modal (background) */
+.modal {
+    display: none; 
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    display: none;
+  }
+  
+  /* The Close Button */
+  .close {
+    display: none;
+  }
+  
+  .close:hover,
+  .close:focus {
+    display: none;
+  }
+
 }
+
